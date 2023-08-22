@@ -6,10 +6,11 @@
     <title>Rock Paper Scissors</title>
 
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
+    
 
 </head>
 <body>
+    
 
     <div class="header">
     <h1>ROCK PAPER SCISSORS</h1>
@@ -19,8 +20,8 @@
         <div class="scoreboard">
             
             
-            <h2>Choose your weapon</h2>
-            <h3>First to score 5 points win the game</h3>
+            <h2 id="scoreInfo">Choose your weapon</h2>
+            <h3 id="scoreMessage">First to score 5 points win the game</h3>
             
             <div class="score-display">
                 <div class="score-box">
@@ -56,5 +57,12 @@
         <p>Copyright © Aether</p>
     </div>
 
+    <div class="modal" id="endgameModal">
+        <p class="modal-title" id="endgameMsg"></p>
+        <button class="btn btn-restart" id="restartBtn">Play again</button>
+      </div>
+      <div class="overlay" id="overlay"></div>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
