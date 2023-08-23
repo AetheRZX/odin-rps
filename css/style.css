@@ -193,6 +193,6 @@ button {
     color: var(--primary-yellow);
   }
 
-  #endgameModal#restartBtn{
-    color:var(--primary-yellow);
+  #restartBtn{
+    background-color: var(--secondary-dark);
   }
